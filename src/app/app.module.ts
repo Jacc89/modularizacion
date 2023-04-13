@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AbmModule } from './moduls/abm/abm.module';
 import { MensajeConfirmacionComponent } from './shared/mensaje-confirmacion/mensaje-confirmacion.component';
+import { MaterialModule } from './shared/material/material.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MensajeConfirmacionComponent } from './shared/mensaje-confirmacion/mens
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    AbmModule
+    AbmModule,
+    MaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -6,13 +6,15 @@ import { AbmComponent } from './abm.component';
 import { MaterialModule } from 'src/app/shared/material/material.module';
 import { AddEditUserComponent } from './components/add-edit-user/add-edit-user.component';
 import { ListUserComponent } from './components/list-user/list-user.component';
+import { NavbarAbmComponent } from './components/navbar-abm/navbar-abm.component';
 
 
 @NgModule({
   declarations: [
     AbmComponent,
     AddEditUserComponent,
-    ListUserComponent
+    ListUserComponent,
+    NavbarAbmComponent
   ],
   imports: [
     CommonModule,
